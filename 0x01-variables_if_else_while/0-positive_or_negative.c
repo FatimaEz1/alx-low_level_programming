@@ -12,10 +12,10 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	if(n>0)
-		printf("%d/n", n ."is positif");
+		printf("%d\n is positif", n);
 	else if(n=0)
-	       printf("%d/n", n ."is zero");
+	       printf("%d\n is zero", n);
 	else 
-		printf("%d/n", n ."is negatif");	
+		printf("%d\n is negatif", n);	
 	return (n);
 }
