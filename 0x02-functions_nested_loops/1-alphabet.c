@@ -5,7 +5,7 @@
  *
  * Description: prints the alphabet, in lowercase,
  *
- * Return: Always 0 (Success)
+ * print_alphabet is a function that prints the lowercase alphabet followed by a newline character using _putchar twice.
 */
 
 void print_alphabet(void) 
