@@ -3,7 +3,7 @@
 /**
  * puts_half - print second half of a string
  * @str: char array string type
- * Description: If the number of characters is odd, the function should print (length - 1) / 2 of the string
+ * Description: the number of characters is odd, the function print (length - 1) / 2
  */
 void puts_half(char *str)
 {
