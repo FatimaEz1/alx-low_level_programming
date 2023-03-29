@@ -1,5 +1,5 @@
 #include "main.h"
-#include "studio.h"
+#include "stdio.h"
 /**
  * print_rev - print a string in reverse, followed by a new line.
  * @s: string.
