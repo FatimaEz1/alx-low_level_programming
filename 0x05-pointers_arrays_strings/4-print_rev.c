@@ -12,10 +12,9 @@ while (s[len] != '\0')
 {
 len++;
 }
-int i;
-for (i = len - 1; i >= 0; i--)
+for (len--; len >= 0; len--)
 {
-printf("%c", s[i]);
+printf("%c", s[len]);
 }
 printf("\n");
 }
