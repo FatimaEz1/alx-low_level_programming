@@ -12,14 +12,16 @@ int len = strlen(str);
 int n = (len - 1) / 2;
 if (len % 2 == 0)
 {
-for (int i = n; i < len; i++)
+int i = n;
+for (; i < len; i++)
 {
 putchar(str[i]);
 }
 }
 else
 {
-for (int i = n + 1; i < len; i++)
+int i = n + 1;
+for (; i < len; i++)
 {
 putchar(str[i]);
 }
