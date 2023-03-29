@@ -9,12 +9,12 @@ void print_rev(char *s)
 {
 int len = 0;
 while (s[len] != '\0')
-{  // get length of string
+{
 len++;
 }
 for (int i = len - 1; i >= 0; i--)
-{  // print string in reverse order
+{
 printf("%c", s[i]);
 }
-printf("\n");  // print new line
+printf("\n");
 }
