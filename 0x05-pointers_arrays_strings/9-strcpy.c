@@ -8,15 +8,13 @@
  * @src: the source.
  * Return: the pointer to dest.
  */
-void print_array(int *a, int n) {
-int i = 0;
-for (; i < n; i++)
+char *_strcpy(char *dest, char *src)
 {
-printf("%d", a[i]);
-if (i != n-1)
+int i;
+for (i = 0; src[i] != '\0'; i++)
 {
-printf(", ");
+dest[i] = src[i];
 }
-}
-printf("\n");
+dest[i] = '\0';
+return dest;
 }
